@@ -23,12 +23,14 @@ print(policz_pliki('.'))
 
 szkoleniePython = glob.glob('..\\Programowanie-w-Pythonie-2023\\**', recursive=True)
 
+# z uzyżyciem zdefiniowanej funkcji policz_pliki
 licz = 0
 for item in szkoleniePython:
     if path.isdir(item) == True:
         licz += policz_pliki(item, '.py')
 print(f'tutaj z funkcji policz_pliki: {licz}')
 
+# z wykorzystaniem szalonego glob.glob
 licznik = 0
 for item in szkoleniePython:
     if item[-3:] == '.py':
