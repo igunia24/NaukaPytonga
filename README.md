@@ -1,7 +1,5 @@
 # NaukaPytonga
-Cześć!
-Wrzucam tu kody, które piszę w ramach nauki Python'a.
-
-Jestem z nich bardzo dumna.
-
-Proszę się nie śmiać.
+Hello!
+This is a repo for scripts that I write while learning Python.
+I am really proud of them. :)
+Cheers!
